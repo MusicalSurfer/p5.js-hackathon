@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Life</title>
+    <meta name="description" content="Hackathon with p5.js">
+    <meta name="author" content="Daniel Grady">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="h1">Bacteria Simulator<small class="text-body-secondary"> -by Daniel Grady</small></h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" id="instruction-container">
+                <!-- Your instructions go here -->
+                <h4>Bacteria eats <b>heathy cells</b>:</h4>
+                <ul class="">
+                    <li>If cell is <b>white</b>, it is a <b>heathy cell</b>.</li>
+                    <li>If cell is <b>green</b>, it is <b>bacteria</b>.</li>
+                    <li>Any <b>bacteria</b> with fewer than two neighboring <b>bacteria</b> die.</li>
+                    <li>Any <b>bacteria</b> with two or three neighboring <b>bacteria</b> lives on to the next
+                        generation.</li>
+                    <li>Any <b>bacteria</b> surrounded by more than three <b>heathy cells</b> die.</li>
+                    <li>Any <b>heathy cell</b> with exactly three <b>bacteria</b> surrounding it, becomes a
+                        <b>bacteria</b>.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div id="canvas-container" class="col-md-3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

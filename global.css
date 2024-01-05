@@ -1,0 +1,18 @@
+body {
+    background-image: linear-gradient(to bottom, gray, rgb(53, 53, 53));
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+
+.h1 {
+    text-align: center;
+    padding: 50px;
+    font-family: Rubik Doodle Shadow;
+}
+
+.text-body-secondary {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
