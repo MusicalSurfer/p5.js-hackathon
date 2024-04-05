@@ -2,6 +2,8 @@
 
 This project implements [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in a visual representation using the P5.js library.
 
+![Screenshot 2024-04-05 at 18 54 53 (2)](https://github.com/MusicalSurfer/p5.js-hackathon/assets/121247975/0cc36053-3ba3-4324-a3fa-4842dbfb36d3)
+
 ## 🚀 Getting Started
 To view this project running, please visit [here](https://musicalsurfer.github.io/p5.js-hackathon/).
 
@@ -24,3 +26,4 @@ You need to have Node.js and npm installed on your machine. If you don't have th
 * <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /> - JavaScript runtime</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /> Markup language</a>
 * <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /> - Styling language</a>
+
